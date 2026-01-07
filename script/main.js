@@ -34,7 +34,7 @@ const fetchData = () => {
 fetchData()
 
 // 自动播放音乐（若浏览器阻止，将在首次点击时重试）
-const audioSrc = "MP3/生日快乐歌 - 小蓓蕾组合.flac"
+const audioSrc = "MP3/生日快乐歌.mp3"
 let audio = null
 let hasBoundRetry = false
 
